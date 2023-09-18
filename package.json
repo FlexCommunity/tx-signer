@@ -1,0 +1,36 @@
+{
+  "name": "tx-signer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "vite build",
+    "deploy": "gh-pages -d dist",
+    "dev": "vite",
+    "preview": "vite preview",
+    "lint:script": "eslint --ext .js,.vue src",
+    "lint": "npm run lint:script",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:FlexCommunity/tx-signer.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FlexCommunity/tx-signer/issues"
+  },
+  "homepage": "https://github.com/FlexCommunity/tx-signer#readme",
+  "dependencies": {
+    "vue": "^3.3.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "eslint": "^8.49.0",
+    "eslint-plugin-vue": "^9.17.0",
+    "gh-pages": "^5.0.0",
+    "sass": "^1.65.1",
+    "vite": "^4.4.9"
+  }
+}
