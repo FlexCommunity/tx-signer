@@ -9,8 +9,11 @@
       </div>
       <div id="navbarCollapse" class="collapse navbar-collapse">
         <ul class="navbar-nav me-auto mb-2 mb-md-0" />
-        <div class="d-flex" role="search">
-          <a class="btn btn-default" :href="apiUrl + '/sign_tx/' + sessionKey + '/back'">
+        <div class="d-flex">
+          <a href="https://github.com/FlexCommunity/tx-signer" target="_blank" class="btn btn-light me-3">
+            <i class="fa-brands fa-github" />
+          </a>
+          <a class="btn btn-outline-secondary" :href="apiUrl + '/sign_tx/' + sessionKey + '/back'">
             Cancel Signing
             <i class="fa-solid fa-xmark ms-1" />
           </a>
@@ -361,6 +364,14 @@
       </div>
     </div>
   </div>
+
+  <footer class="container">
+    <hr>
+    <div class="text-end">
+      <i class="fa-brands fa-github me-2" />
+      <a href="https://github.com/FlexCommunity/tx-signer" target="_blank">FAT Signer Source Code</a>
+    </div>
+  </footer>
 </template>
 
 <style src="./SignaturePage.scss"></style>
