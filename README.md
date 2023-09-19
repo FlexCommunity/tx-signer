@@ -18,3 +18,5 @@ FAT Transaction Signer is hosted on GitHub to further increase transparency.
 
 The EVM Transaction Signer employs robust cryptographic methods to safeguard users' private keys, guaranteeing that this
 sensitive information never leaves their computer.
+
+## Release Notes
